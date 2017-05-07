@@ -125,7 +125,7 @@ class ViewController: UIViewController {
                 if let eyesOpen = response?.faceRecords?[0].faceDetail?.eyesOpen,
                     let smile = response?.faceRecords?[0].faceDetail?.smile {
                     sleepingScore = EyesOpenCalculator.calculateEyesOpen(eyesOpen: eyesOpen, smile: smile)
-                    print("smile: \()")
+                    //print("smile: \()")
                     print("eyesOpenConfidence: \(String(describing: eyesOpen.confidence)), value: \(String(describing: eyesOpen.value))")
                     print("sleepingScore: \(sleepingScore)")
                     
