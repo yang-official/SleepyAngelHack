@@ -1,0 +1,525 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSBolts.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSBoltsVersion.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSBoltsVersion.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCancellationToken.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCancellationTokenRegistration.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCancellationTokenSource.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCategory.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSClientContext.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentity.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentityModel.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentityResources.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentityService.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCore-Swift.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCore-umbrella.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCore.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/AWSCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCredentialsProvider.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSExecutor.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDB.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabase.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabaseAdditions.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabasePool.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabaseQueue.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMResultSet.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSGZIP.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSIdentityProvider.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSInfo.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Service/AWSInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSKSReachability.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/KSReachability/AWSKSReachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSLogging.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLJSONAdapter.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLManagedObjectAdapter.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLModel+NSCoding.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLModel.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLReflection.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLValueTransformer.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMantle.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSModel.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSNetworking.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSTS.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSTSModel.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSTSResources.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSTSService.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSerialization.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSService.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Service/AWSService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSServiceEnum.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSignature.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSynchronizedMutableDictionary.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTMCache.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTMCacheBackgroundTaskManager.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTMDiskCache.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTMMemoryCache.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTask.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTaskCompletionSource.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSUICKeyChainStore.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSURLRequestRetryHandler.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSURLRequestSerialization.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSURLResponseSerialization.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSURLSessionManager.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSValidation.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+AWSMTLManipulationAdditions.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+AWSMTLManipulationAdditions.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSError+AWSMTLModelException.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+AWSMTLComparisonAdditions.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSValueTransformer+AWSMTLInversionAdditions.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Intermediates/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentity+Fabric.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity+Fabric.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEXTKeyPathCoding.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/extobjc/AWSEXTKeyPathCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEXTRuntimeExtensions.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/extobjc/AWSEXTRuntimeExtensions.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEXTScope.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/extobjc/AWSEXTScope.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabase+Private.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSXMLDictionary.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/XMLDictionary/AWSXMLDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSXMLWriter.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/XMLWriter/AWSXMLWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSmetamacros.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/extobjc/AWSmetamacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "FABAttributes.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Fabric/FABAttributes.h"
+        },
+        {
+          'type': 'file',
+          'name': "FABKitProtocol.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Fabric/FABKitProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "Fabric+FABKits.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Fabric/Fabric+FABKits.h"
+        },
+        {
+          'type': 'file',
+          'name': "Fabric.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Fabric/Fabric.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSRekognition-Swift.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSRekognition-umbrella.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/Target Support Files/AWSRekognition/AWSRekognition-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSRekognition.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSRekognition/AWSRekognition/AWSRekognition.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSRekognitionModel.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSRekognition/AWSRekognition/AWSRekognitionModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSRekognitionResources.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSRekognition/AWSRekognition/AWSRekognitionResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSRekognitionService.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSRekognition/AWSRekognition/AWSRekognitionService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Intermediates/Pods.build/Debug-iphoneos/AWSRekognition.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/Pods_SleepyAngelHack.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-SleepyAngelHack-umbrella.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/Target Support Files/Pods-SleepyAngelHack/Pods-SleepyAngelHack-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_SleepyAngelHack-Swift.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/Pods_SleepyAngelHack.framework/Headers/Pods_SleepyAngelHack-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/Pods_SleepyAngelHack.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SleepyAngelHack.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SVIndefiniteAnimatedView.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressAnimatedView.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-Swift.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-umbrella.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVRadialGradientLayer.h",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Intermediates/Pods.build/Debug-iphoneos/SVProgressHUD.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "53c8dbe8f3d815d33a87bcfa57b724e3"
+build_time: [547477452, 349558000]
+inputs:
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/ViewController.swift": [547426358, 0]
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/Model/EyesOpenCalculator.swift": [547441253, 0]
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/ViewController/FaceImageViewController.swift": [547442055, 0]
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/AppDelegate.swift": [547428281, 0]
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/Model/EmotionCalculator.swift": [547440802, 0]
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/Model/ColorCalculator.swift": [9223372036854775807, 0]

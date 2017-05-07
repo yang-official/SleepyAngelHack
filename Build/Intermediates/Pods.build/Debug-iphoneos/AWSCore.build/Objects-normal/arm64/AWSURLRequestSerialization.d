@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.m \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Intermediates/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/Target\ Support\ Files/AWSCore/AWSCore-prefix.pch \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Utility/AWSModel.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSBoltsVersion.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSTask.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Utility/AWSCategory.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Utility/AWSLogging.h \
+  /Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Pods/AWSCore/AWSCore/Service/AWSClientContext.h

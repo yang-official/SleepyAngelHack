@@ -1,0 +1,625 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C15SleepyAngelHack14ViewController"
+provides-member:
+- ["C15SleepyAngelHack14ViewController", ""]
+provides-dynamic-lookup:
+- "cameraButtonTapped"
+- "didReceiveMemoryWarning"
+- "imagePickerController"
+- "imagePickerControllerDidCancel"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "FaceImageViewController"
+- "String"
+- "StringLiteralType"
+- !private "UIImage"
+- "UIImagePickerController"
+- "UIImagePickerControllerDelegate"
+- !private "UIImagePickerControllerOriginalImage"
+- "UINavigationControllerDelegate"
+- !private "UIStoryboard"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["Ps9AnyObject", "UIImagePickerController"]
+- !private ["Ps9AnyObject", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps9AnyObject", "UIStoryboard"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "faceImage"]
+- ["Ps9AnyObject", "imagePickerController"]
+- ["Ps9AnyObject", "imagePickerControllerDidCancel"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateInitialViewController"]
+- ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9AnyObject", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "pushViewController"]
+- !private ["Ps9AnyObject", "sourceType"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "UIImagePickerController"]
+- !private ["Ps7CVarArg", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps7CVarArg", "UIStoryboard"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "dismiss"]
+- !private ["Ps7CVarArg", "faceImage"]
+- ["Ps7CVarArg", "imagePickerController"]
+- ["Ps7CVarArg", "imagePickerControllerDidCancel"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateInitialViewController"]
+- ["Ps7CVarArg", "navigationController"]
+- ["Ps7CVarArg", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps7CVarArg", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "pushViewController"]
+- !private ["Ps7CVarArg", "sourceType"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImagePickerController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- !private ["Ps28CustomDebugStringConvertible", "faceImage"]
+- ["Ps28CustomDebugStringConvertible", "imagePickerController"]
+- ["Ps28CustomDebugStringConvertible", "imagePickerControllerDidCancel"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateInitialViewController"]
+- ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceType"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "UIImagePickerController"]
+- !private ["Ps23CustomStringConvertible", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- !private ["Ps23CustomStringConvertible", "faceImage"]
+- ["Ps23CustomStringConvertible", "imagePickerController"]
+- ["Ps23CustomStringConvertible", "imagePickerControllerDidCancel"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateInitialViewController"]
+- ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps23CustomStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "pushViewController"]
+- !private ["Ps23CustomStringConvertible", "sourceType"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "UIImagePickerController"]
+- !private ["Ps9Equatable", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps9Equatable", "UIStoryboard"]
+- !private ["Ps9Equatable", "camera"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "dismiss"]
+- !private ["Ps9Equatable", "faceImage"]
+- ["Ps9Equatable", "imagePickerController"]
+- ["Ps9Equatable", "imagePickerControllerDidCancel"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateInitialViewController"]
+- ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9Equatable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "pushViewController"]
+- !private ["Ps9Equatable", "sourceType"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "faceImage"]
+- !private ["Ps8Hashable", "UIImagePickerController"]
+- !private ["Ps8Hashable", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps8Hashable", "UIStoryboard"]
+- !private ["Ps8Hashable", "camera"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "dismiss"]
+- !private ["Ps8Hashable", "faceImage"]
+- ["Ps8Hashable", "imagePickerController"]
+- ["Ps8Hashable", "imagePickerControllerDidCancel"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateInitialViewController"]
+- ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps8Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "pushViewController"]
+- !private ["Ps8Hashable", "sourceType"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "UIImagePickerController"]
+- !private ["PSo8NSCoding", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo8NSCoding", "UIStoryboard"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dismiss"]
+- !private ["PSo8NSCoding", "faceImage"]
+- ["PSo8NSCoding", "imagePickerController"]
+- ["PSo8NSCoding", "imagePickerControllerDidCancel"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "navigationController"]
+- ["PSo8NSCoding", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo8NSCoding", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo8NSCoding", "sourceType"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImagePickerController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- !private ["PSo26NSExtensionRequestHandling", "faceImage"]
+- ["PSo26NSExtensionRequestHandling", "imagePickerController"]
+- ["PSo26NSExtensionRequestHandling", "imagePickerControllerDidCancel"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "navigationController"]
+- ["PSo26NSExtensionRequestHandling", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo26NSExtensionRequestHandling", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "sourceType"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "FaceImageViewController"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImagePickerController"]
+- !private ["CSo8NSObject", "UIImagePickerControllerOriginalImage"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- ["CSo8NSObject", "cameraButtonTapped"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dismiss"]
+- !private ["CSo8NSObject", "faceImage"]
+- ["CSo8NSObject", "imagePickerController"]
+- ["CSo8NSObject", "imagePickerControllerDidCancel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateInitialViewController"]
+- ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo8NSObject", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "pushViewController"]
+- !private ["CSo8NSObject", "sourceType"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIImagePickerController"]
+- !private ["PSo16NSObjectProtocol", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- !private ["PSo16NSObjectProtocol", "faceImage"]
+- ["PSo16NSObjectProtocol", "imagePickerController"]
+- ["PSo16NSObjectProtocol", "imagePickerControllerDidCancel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateInitialViewController"]
+- ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16NSObjectProtocol", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- !private ["PSo16NSObjectProtocol", "sourceType"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16RawRepresentable", "camera"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "UIImagePickerController"]
+- !private ["PSo21UIAppearanceContainer", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- !private ["PSo21UIAppearanceContainer", "faceImage"]
+- ["PSo21UIAppearanceContainer", "imagePickerController"]
+- ["PSo21UIAppearanceContainer", "imagePickerControllerDidCancel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "navigationController"]
+- ["PSo21UIAppearanceContainer", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo21UIAppearanceContainer", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo21UIAppearanceContainer", "sourceType"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "UIImagePickerController"]
+- !private ["PSo18UIContentContainer", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo18UIContentContainer", "UIStoryboard"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- !private ["PSo18UIContentContainer", "faceImage"]
+- ["PSo18UIContentContainer", "imagePickerController"]
+- ["PSo18UIContentContainer", "imagePickerControllerDidCancel"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "navigationController"]
+- ["PSo18UIContentContainer", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UIContentContainer", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "sourceType"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "UIImagePickerController"]
+- !private ["PSo18UIFocusEnvironment", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- !private ["PSo18UIFocusEnvironment", "faceImage"]
+- ["PSo18UIFocusEnvironment", "imagePickerController"]
+- ["PSo18UIFocusEnvironment", "imagePickerControllerDidCancel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "navigationController"]
+- ["PSo18UIFocusEnvironment", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UIFocusEnvironment", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "sourceType"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo23UIImagePickerController", "delegate"]
+- !private ["CSo23UIImagePickerController", "dismiss"]
+- !private ["CSo23UIImagePickerController", "init"]
+- !private ["CSo23UIImagePickerController", "sourceType"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIImagePickerController"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIStoryboard"]
+- ["PSo31UIImagePickerControllerDelegate", "imagePickerController"]
+- ["PSo31UIImagePickerControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationController"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo31UIImagePickerControllerDelegate", "present"]
+- ["PSo31UIImagePickerControllerDelegate", ""]
+- !private ["OSC33UIImagePickerControllerSourceType", "camera"]
+- !private ["CSo22UINavigationController", "delegate"]
+- !private ["CSo22UINavigationController", "dismiss"]
+- !private ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- !private ["CSo22UINavigationController", "sourceType"]
+- !private ["PSo30UINavigationControllerDelegate", "UIImagePickerController"]
+- !private ["PSo30UINavigationControllerDelegate", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo30UINavigationControllerDelegate", "UIStoryboard"]
+- ["PSo30UINavigationControllerDelegate", "imagePickerController"]
+- ["PSo30UINavigationControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo30UINavigationControllerDelegate", "navigationController"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo30UINavigationControllerDelegate", "present"]
+- ["PSo30UINavigationControllerDelegate", ""]
+- !private ["CSo11UIResponder", "FaceImageViewController"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImagePickerController"]
+- !private ["CSo11UIResponder", "UIImagePickerControllerOriginalImage"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
+- ["CSo11UIResponder", "cameraButtonTapped"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dismiss"]
+- !private ["CSo11UIResponder", "faceImage"]
+- ["CSo11UIResponder", "imagePickerController"]
+- ["CSo11UIResponder", "imagePickerControllerDidCancel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "navigationController"]
+- ["CSo11UIResponder", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo11UIResponder", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- !private ["CSo11UIResponder", "sourceType"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImagePickerController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo30UIResponderStandardEditActions", "UIStoryboard"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- !private ["PSo30UIResponderStandardEditActions", "faceImage"]
+- ["PSo30UIResponderStandardEditActions", "imagePickerController"]
+- ["PSo30UIResponderStandardEditActions", "imagePickerControllerDidCancel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "navigationController"]
+- ["PSo30UIResponderStandardEditActions", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo30UIResponderStandardEditActions", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "pushViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "sourceType"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "UIImagePickerController"]
+- !private ["PSo16UIStateRestoring", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo16UIStateRestoring", "UIStoryboard"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- !private ["PSo16UIStateRestoring", "faceImage"]
+- ["PSo16UIStateRestoring", "imagePickerController"]
+- ["PSo16UIStateRestoring", "imagePickerControllerDidCancel"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "navigationController"]
+- ["PSo16UIStateRestoring", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16UIStateRestoring", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "sourceType"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateInitialViewController"]
+- !private ["PSo18UITraitEnvironment", "UIImagePickerController"]
+- !private ["PSo18UITraitEnvironment", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo18UITraitEnvironment", "UIStoryboard"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- !private ["PSo18UITraitEnvironment", "faceImage"]
+- ["PSo18UITraitEnvironment", "imagePickerController"]
+- ["PSo18UITraitEnvironment", "imagePickerControllerDidCancel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "navigationController"]
+- ["PSo18UITraitEnvironment", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UITraitEnvironment", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["PSo18UITraitEnvironment", "sourceType"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo16UIViewController", "FaceImageViewController"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImagePickerController"]
+- !private ["CSo16UIViewController", "UIImagePickerControllerOriginalImage"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
+- ["CSo16UIViewController", "cameraButtonTapped"]
+- !private ["CSo16UIViewController", "delegate"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismiss"]
+- !private ["CSo16UIViewController", "faceImage"]
+- ["CSo16UIViewController", "imagePickerController"]
+- ["CSo16UIViewController", "imagePickerControllerDidCancel"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "navigationController"]
+- ["CSo16UIViewController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo16UIViewController", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- !private ["CSo16UIViewController", "sourceType"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["C15SleepyAngelHack14ViewController", "FaceImageViewController"]
+- ["C15SleepyAngelHack14ViewController", "String"]
+- !private ["C15SleepyAngelHack14ViewController", "UIImage"]
+- ["C15SleepyAngelHack14ViewController", "UIImagePickerController"]
+- !private ["C15SleepyAngelHack14ViewController", "UIImagePickerControllerOriginalImage"]
+- !private ["C15SleepyAngelHack14ViewController", "UIStoryboard"]
+- ["C15SleepyAngelHack14ViewController", "cameraButtonTapped"]
+- ["C15SleepyAngelHack14ViewController", "deinit"]
+- ["C15SleepyAngelHack14ViewController", "didReceiveMemoryWarning"]
+- ["C15SleepyAngelHack14ViewController", "imagePickerController"]
+- ["C15SleepyAngelHack14ViewController", "imagePickerControllerDidCancel"]
+- ["C15SleepyAngelHack14ViewController", "init"]
+- ["C15SleepyAngelHack14ViewController", "navigationController"]
+- ["C15SleepyAngelHack14ViewController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["C15SleepyAngelHack14ViewController", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["C15SleepyAngelHack14ViewController", "present"]
+- ["C15SleepyAngelHack14ViewController", "viewDidLoad"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "UIImagePickerController"]
+- !private ["Ps9_Hashable", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps9_Hashable", "UIStoryboard"]
+- !private ["Ps9_Hashable", "camera"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "dismiss"]
+- !private ["Ps9_Hashable", "faceImage"]
+- ["Ps9_Hashable", "imagePickerController"]
+- ["Ps9_Hashable", "imagePickerControllerDidCancel"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateInitialViewController"]
+- ["Ps9_Hashable", "navigationController"]
+- ["Ps9_Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9_Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "pushViewController"]
+- !private ["Ps9_Hashable", "sourceType"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "C15SleepyAngelHack23FaceImageViewController"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "CSo23UIImagePickerController"
+- "PSo31UIImagePickerControllerDelegate"
+- !private "OSC33UIImagePickerControllerSourceType"
+- !private "CSo22UINavigationController"
+- "PSo30UINavigationControllerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "C15SleepyAngelHack14ViewController"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition-umbrella.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Modules/module.modulemap"
+interface-hash: "1baaf909d37fbaa10393ee6dad1fb369"

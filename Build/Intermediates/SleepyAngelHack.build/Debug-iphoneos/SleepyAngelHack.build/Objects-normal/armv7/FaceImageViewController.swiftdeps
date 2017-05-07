@@ -1,0 +1,914 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FaceImageViewController"
+provides-nominal:
+- "C15SleepyAngelHack23FaceImageViewController"
+provides-member:
+- ["C15SleepyAngelHack23FaceImageViewController", ""]
+provides-dynamic-lookup:
+- "collectionName"
+- "create"
+- "detect"
+- "didReceiveMemoryWarning"
+- "faceImage"
+- "faceImageView"
+- "rekognitionClient"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AWSRekognition"
+- !private "AWSRekognitionCreateCollectionRequest"
+- !private "AWSRekognitionCreateCollectionResponse"
+- !private "AWSRekognitionImage"
+- !private "AWSRekognitionIndexFacesRequest"
+- !private "AWSRekognitionIndexFacesResponse"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "Double"
+- !private "Error"
+- !private "EyesOpenCalculator"
+- "FaceImageViewController"
+- !private "String"
+- "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UIImage"
+- !private "UIImageJPEGRepresentation"
+- "UIImageView"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["PSo21AWSMTLJSONSerializing", "bytes"]
+- !private ["PSo21AWSMTLJSONSerializing", "collectionId"]
+- !private ["PSo21AWSMTLJSONSerializing", "confidence"]
+- !private ["PSo21AWSMTLJSONSerializing", "detectionAttributes"]
+- !private ["PSo21AWSMTLJSONSerializing", "eyesOpen"]
+- !private ["PSo21AWSMTLJSONSerializing", "faceDetail"]
+- !private ["PSo21AWSMTLJSONSerializing", "faceRecords"]
+- !private ["PSo21AWSMTLJSONSerializing", "image"]
+- !private ["PSo21AWSMTLJSONSerializing", "init"]
+- !private ["PSo21AWSMTLJSONSerializing", "value"]
+- !private ["CSo11AWSMTLModel", "bytes"]
+- !private ["CSo11AWSMTLModel", "collectionId"]
+- !private ["CSo11AWSMTLModel", "confidence"]
+- !private ["CSo11AWSMTLModel", "detectionAttributes"]
+- !private ["CSo11AWSMTLModel", "eyesOpen"]
+- !private ["CSo11AWSMTLModel", "faceDetail"]
+- !private ["CSo11AWSMTLModel", "faceRecords"]
+- !private ["CSo11AWSMTLModel", "image"]
+- !private ["CSo11AWSMTLModel", "init"]
+- !private ["CSo11AWSMTLModel", "value"]
+- !private ["CSo8AWSModel", "bytes"]
+- !private ["CSo8AWSModel", "collectionId"]
+- !private ["CSo8AWSModel", "confidence"]
+- !private ["CSo8AWSModel", "detectionAttributes"]
+- !private ["CSo8AWSModel", "eyesOpen"]
+- !private ["CSo8AWSModel", "faceDetail"]
+- !private ["CSo8AWSModel", "faceRecords"]
+- !private ["CSo8AWSModel", "image"]
+- !private ["CSo8AWSModel", "init"]
+- !private ["CSo8AWSModel", "value"]
+- !private ["CSo14AWSRekognition", "createCollection"]
+- !private ["CSo14AWSRekognition", "default"]
+- !private ["CSo14AWSRekognition", "indexFaces"]
+- !private ["CSo37AWSRekognitionCreateCollectionRequest", "collectionId"]
+- !private ["CSo37AWSRekognitionCreateCollectionRequest", "init"]
+- !private ["CSo21AWSRekognitionEyeOpen", "confidence"]
+- !private ["CSo21AWSRekognitionEyeOpen", "value"]
+- !private ["CSo24AWSRekognitionFaceDetail", "eyesOpen"]
+- !private ["CSo24AWSRekognitionFaceRecord", "faceDetail"]
+- !private ["CSo19AWSRekognitionImage", "bytes"]
+- !private ["CSo19AWSRekognitionImage", "init"]
+- !private ["CSo31AWSRekognitionIndexFacesRequest", "collectionId"]
+- !private ["CSo31AWSRekognitionIndexFacesRequest", "detectionAttributes"]
+- !private ["CSo31AWSRekognitionIndexFacesRequest", "image"]
+- !private ["CSo31AWSRekognitionIndexFacesRequest", "init"]
+- !private ["CSo32AWSRekognitionIndexFacesResponse", "faceRecords"]
+- !private ["CSo10AWSRequest", "collectionId"]
+- !private ["CSo10AWSRequest", "detectionAttributes"]
+- !private ["CSo10AWSRequest", "image"]
+- !private ["CSo10AWSRequest", "init"]
+- !private ["CSo10AWSService", "createCollection"]
+- !private ["CSo10AWSService", "default"]
+- !private ["CSo10AWSService", "indexFaces"]
+- !private ["Ps9AnyObject", "AWSRekognition"]
+- !private ["Ps9AnyObject", "AWSRekognitionCreateCollectionRequest"]
+- !private ["Ps9AnyObject", "AWSRekognitionImage"]
+- !private ["Ps9AnyObject", "AWSRekognitionIndexFacesRequest"]
+- !private ["Ps9AnyObject", "EyesOpenCalculator"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "UIImageJPEGRepresentation"]
+- !private ["Ps9AnyObject", "addAction"]
+- !private ["Ps9AnyObject", "bytes"]
+- !private ["Ps9AnyObject", "calculateEyesOpen"]
+- !private ["Ps9AnyObject", "collectionId"]
+- !private ["Ps9AnyObject", "collectionName"]
+- !private ["Ps9AnyObject", "confidence"]
+- !private ["Ps9AnyObject", "createCollection"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "detectionAttributes"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "eyesOpen"]
+- !private ["Ps9AnyObject", "faceDetail"]
+- !private ["Ps9AnyObject", "faceImage"]
+- !private ["Ps9AnyObject", "faceImageView"]
+- !private ["Ps9AnyObject", "faceRecords"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "indexFaces"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "rekognitionClient"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["Ps7CVarArg", "AWSRekognition"]
+- !private ["Ps7CVarArg", "AWSRekognitionCreateCollectionRequest"]
+- !private ["Ps7CVarArg", "AWSRekognitionImage"]
+- !private ["Ps7CVarArg", "AWSRekognitionIndexFacesRequest"]
+- !private ["Ps7CVarArg", "EyesOpenCalculator"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "UIAlertAction"]
+- !private ["Ps7CVarArg", "UIAlertController"]
+- !private ["Ps7CVarArg", "UIImageJPEGRepresentation"]
+- !private ["Ps7CVarArg", "addAction"]
+- !private ["Ps7CVarArg", "bytes"]
+- !private ["Ps7CVarArg", "collectionId"]
+- !private ["Ps7CVarArg", "collectionName"]
+- !private ["Ps7CVarArg", "confidence"]
+- !private ["Ps7CVarArg", "createCollection"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "detectionAttributes"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "eyesOpen"]
+- !private ["Ps7CVarArg", "faceDetail"]
+- !private ["Ps7CVarArg", "faceImage"]
+- !private ["Ps7CVarArg", "faceImageView"]
+- !private ["Ps7CVarArg", "faceRecords"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "indexFaces"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "rekognitionClient"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AWSRekognition"]
+- !private ["Ps28CustomDebugStringConvertible", "AWSRekognitionCreateCollectionRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "AWSRekognitionImage"]
+- !private ["Ps28CustomDebugStringConvertible", "AWSRekognitionIndexFacesRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "EyesOpenCalculator"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImageJPEGRepresentation"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- !private ["Ps28CustomDebugStringConvertible", "bytes"]
+- !private ["Ps28CustomDebugStringConvertible", "collectionId"]
+- !private ["Ps28CustomDebugStringConvertible", "collectionName"]
+- !private ["Ps28CustomDebugStringConvertible", "confidence"]
+- !private ["Ps28CustomDebugStringConvertible", "createCollection"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "detectionAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "eyesOpen"]
+- !private ["Ps28CustomDebugStringConvertible", "faceDetail"]
+- !private ["Ps28CustomDebugStringConvertible", "faceImage"]
+- !private ["Ps28CustomDebugStringConvertible", "faceImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "faceRecords"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "indexFaces"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "rekognitionClient"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "AWSRekognition"]
+- !private ["Ps23CustomStringConvertible", "AWSRekognitionCreateCollectionRequest"]
+- !private ["Ps23CustomStringConvertible", "AWSRekognitionImage"]
+- !private ["Ps23CustomStringConvertible", "AWSRekognitionIndexFacesRequest"]
+- !private ["Ps23CustomStringConvertible", "EyesOpenCalculator"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "UIAlertAction"]
+- !private ["Ps23CustomStringConvertible", "UIAlertController"]
+- !private ["Ps23CustomStringConvertible", "UIImageJPEGRepresentation"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- !private ["Ps23CustomStringConvertible", "bytes"]
+- !private ["Ps23CustomStringConvertible", "collectionId"]
+- !private ["Ps23CustomStringConvertible", "collectionName"]
+- !private ["Ps23CustomStringConvertible", "confidence"]
+- !private ["Ps23CustomStringConvertible", "createCollection"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "detectionAttributes"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "eyesOpen"]
+- !private ["Ps23CustomStringConvertible", "faceDetail"]
+- !private ["Ps23CustomStringConvertible", "faceImage"]
+- !private ["Ps23CustomStringConvertible", "faceImageView"]
+- !private ["Ps23CustomStringConvertible", "faceRecords"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "indexFaces"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "rekognitionClient"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "AWSRekognition"]
+- !private ["Ps9Equatable", "AWSRekognitionCreateCollectionRequest"]
+- !private ["Ps9Equatable", "AWSRekognitionImage"]
+- !private ["Ps9Equatable", "AWSRekognitionIndexFacesRequest"]
+- !private ["Ps9Equatable", "EyesOpenCalculator"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIAlertAction"]
+- !private ["Ps9Equatable", "UIAlertController"]
+- !private ["Ps9Equatable", "UIImageJPEGRepresentation"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addAction"]
+- !private ["Ps9Equatable", "alert"]
+- !private ["Ps9Equatable", "bytes"]
+- !private ["Ps9Equatable", "cancel"]
+- !private ["Ps9Equatable", "collectionId"]
+- !private ["Ps9Equatable", "collectionName"]
+- !private ["Ps9Equatable", "confidence"]
+- !private ["Ps9Equatable", "createCollection"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "detectionAttributes"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "eyesOpen"]
+- !private ["Ps9Equatable", "faceDetail"]
+- !private ["Ps9Equatable", "faceImage"]
+- !private ["Ps9Equatable", "faceImageView"]
+- !private ["Ps9Equatable", "faceRecords"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "indexFaces"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rekognitionClient"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["C15SleepyAngelHack18EyesOpenCalculator", "calculateEyesOpen"]
+- ["C15SleepyAngelHack23FaceImageViewController", "AWSRekognition"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "AWSRekognitionCreateCollectionRequest"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "AWSRekognitionCreateCollectionResponse"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "AWSRekognitionImage"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "AWSRekognitionIndexFacesRequest"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "AWSRekognitionIndexFacesResponse"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "Double"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "Error"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "EyesOpenCalculator"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "String"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "UIAlertAction"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "UIAlertController"]
+- ["C15SleepyAngelHack23FaceImageViewController", "UIImage"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "UIImageJPEGRepresentation"]
+- ["C15SleepyAngelHack23FaceImageViewController", "UIImageView"]
+- ["C15SleepyAngelHack23FaceImageViewController", "collectionName"]
+- ["C15SleepyAngelHack23FaceImageViewController", "create"]
+- ["C15SleepyAngelHack23FaceImageViewController", "deinit"]
+- ["C15SleepyAngelHack23FaceImageViewController", "detect"]
+- ["C15SleepyAngelHack23FaceImageViewController", "didReceiveMemoryWarning"]
+- ["C15SleepyAngelHack23FaceImageViewController", "faceImage"]
+- ["C15SleepyAngelHack23FaceImageViewController", "faceImageView"]
+- ["C15SleepyAngelHack23FaceImageViewController", "init"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "present"]
+- !private ["C15SleepyAngelHack23FaceImageViewController", "print"]
+- ["C15SleepyAngelHack23FaceImageViewController", "rekognitionClient"]
+- ["C15SleepyAngelHack23FaceImageViewController", "viewDidLoad"]
+- !private ["Ps8Hashable", "AWSRekognition"]
+- !private ["Ps8Hashable", "AWSRekognitionCreateCollectionRequest"]
+- !private ["Ps8Hashable", "AWSRekognitionImage"]
+- !private ["Ps8Hashable", "AWSRekognitionIndexFacesRequest"]
+- !private ["Ps8Hashable", "EyesOpenCalculator"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIAlertAction"]
+- !private ["Ps8Hashable", "UIAlertController"]
+- !private ["Ps8Hashable", "UIImageJPEGRepresentation"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addAction"]
+- !private ["Ps8Hashable", "alert"]
+- !private ["Ps8Hashable", "bytes"]
+- !private ["Ps8Hashable", "cancel"]
+- !private ["Ps8Hashable", "collectionId"]
+- !private ["Ps8Hashable", "collectionName"]
+- !private ["Ps8Hashable", "confidence"]
+- !private ["Ps8Hashable", "createCollection"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "detectionAttributes"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "eyesOpen"]
+- !private ["Ps8Hashable", "faceDetail"]
+- !private ["Ps8Hashable", "faceImage"]
+- !private ["Ps8Hashable", "faceImageView"]
+- !private ["Ps8Hashable", "faceRecords"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "indexFaces"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rekognitionClient"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "AWSRekognition"]
+- !private ["PSo8NSCoding", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo8NSCoding", "AWSRekognitionImage"]
+- !private ["PSo8NSCoding", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo8NSCoding", "EyesOpenCalculator"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "UIImageJPEGRepresentation"]
+- !private ["PSo8NSCoding", "addAction"]
+- !private ["PSo8NSCoding", "bytes"]
+- !private ["PSo8NSCoding", "collectionId"]
+- !private ["PSo8NSCoding", "collectionName"]
+- !private ["PSo8NSCoding", "confidence"]
+- !private ["PSo8NSCoding", "detectionAttributes"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "eyesOpen"]
+- !private ["PSo8NSCoding", "faceDetail"]
+- !private ["PSo8NSCoding", "faceImage"]
+- !private ["PSo8NSCoding", "faceImageView"]
+- !private ["PSo8NSCoding", "faceRecords"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "rekognitionClient"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "bytes"]
+- !private ["PSo9NSCopying", "collectionId"]
+- !private ["PSo9NSCopying", "confidence"]
+- !private ["PSo9NSCopying", "detectionAttributes"]
+- !private ["PSo9NSCopying", "eyesOpen"]
+- !private ["PSo9NSCopying", "faceDetail"]
+- !private ["PSo9NSCopying", "faceRecords"]
+- !private ["PSo9NSCopying", "image"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "value"]
+- !private ["PSo26NSExtensionRequestHandling", "AWSRekognition"]
+- !private ["PSo26NSExtensionRequestHandling", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "AWSRekognitionImage"]
+- !private ["PSo26NSExtensionRequestHandling", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "EyesOpenCalculator"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImageJPEGRepresentation"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- !private ["PSo26NSExtensionRequestHandling", "collectionName"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "faceImage"]
+- !private ["PSo26NSExtensionRequestHandling", "faceImageView"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "rekognitionClient"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AWSRekognition"]
+- !private ["CSo8NSObject", "AWSRekognitionCreateCollectionRequest"]
+- !private ["CSo8NSObject", "AWSRekognitionCreateCollectionResponse"]
+- !private ["CSo8NSObject", "AWSRekognitionImage"]
+- !private ["CSo8NSObject", "AWSRekognitionIndexFacesRequest"]
+- !private ["CSo8NSObject", "AWSRekognitionIndexFacesResponse"]
+- !private ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "EyesOpenCalculator"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UIImageJPEGRepresentation"]
+- ["CSo8NSObject", "UIImageView"]
+- !private ["CSo8NSObject", "addAction"]
+- !private ["CSo8NSObject", "bytes"]
+- !private ["CSo8NSObject", "collectionId"]
+- ["CSo8NSObject", "collectionName"]
+- !private ["CSo8NSObject", "confidence"]
+- ["CSo8NSObject", "create"]
+- !private ["CSo8NSObject", "createCollection"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "detect"]
+- !private ["CSo8NSObject", "detectionAttributes"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "eyesOpen"]
+- !private ["CSo8NSObject", "faceDetail"]
+- ["CSo8NSObject", "faceImage"]
+- ["CSo8NSObject", "faceImageView"]
+- !private ["CSo8NSObject", "faceRecords"]
+- !private ["CSo8NSObject", "image"]
+- !private ["CSo8NSObject", "indexFaces"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "rekognitionClient"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "AWSRekognition"]
+- !private ["PSo16NSObjectProtocol", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo16NSObjectProtocol", "AWSRekognitionImage"]
+- !private ["PSo16NSObjectProtocol", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo16NSObjectProtocol", "EyesOpenCalculator"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UIImageJPEGRepresentation"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- !private ["PSo16NSObjectProtocol", "bytes"]
+- !private ["PSo16NSObjectProtocol", "collectionId"]
+- !private ["PSo16NSObjectProtocol", "collectionName"]
+- !private ["PSo16NSObjectProtocol", "confidence"]
+- !private ["PSo16NSObjectProtocol", "createCollection"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "detectionAttributes"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "eyesOpen"]
+- !private ["PSo16NSObjectProtocol", "faceDetail"]
+- !private ["PSo16NSObjectProtocol", "faceImage"]
+- !private ["PSo16NSObjectProtocol", "faceImageView"]
+- !private ["PSo16NSObjectProtocol", "faceRecords"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "indexFaces"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "rekognitionClient"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps16RawRepresentable", "alert"]
+- !private ["Ps16RawRepresentable", "cancel"]
+- !private ["Ps8Sequence", "subscript"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "cancel"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "alert"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo21UIAppearanceContainer", "AWSRekognition"]
+- !private ["PSo21UIAppearanceContainer", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo21UIAppearanceContainer", "AWSRekognitionImage"]
+- !private ["PSo21UIAppearanceContainer", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo21UIAppearanceContainer", "EyesOpenCalculator"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "UIImageJPEGRepresentation"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "collectionName"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "faceImage"]
+- !private ["PSo21UIAppearanceContainer", "faceImageView"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "rekognitionClient"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "AWSRekognition"]
+- !private ["PSo18UIContentContainer", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo18UIContentContainer", "AWSRekognitionImage"]
+- !private ["PSo18UIContentContainer", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo18UIContentContainer", "EyesOpenCalculator"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "UIImageJPEGRepresentation"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- !private ["PSo18UIContentContainer", "collectionName"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "faceImage"]
+- !private ["PSo18UIContentContainer", "faceImageView"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "rekognitionClient"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo18UIFocusEnvironment", "AWSRekognition"]
+- !private ["PSo18UIFocusEnvironment", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo18UIFocusEnvironment", "AWSRekognitionImage"]
+- !private ["PSo18UIFocusEnvironment", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo18UIFocusEnvironment", "EyesOpenCalculator"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "UIImageJPEGRepresentation"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "collectionName"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "faceImage"]
+- !private ["PSo18UIFocusEnvironment", "faceImageView"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "rekognitionClient"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["CSo11UIImageView", "image"]
+- ["CSo11UIResponder", "AWSRekognition"]
+- !private ["CSo11UIResponder", "AWSRekognitionCreateCollectionRequest"]
+- !private ["CSo11UIResponder", "AWSRekognitionCreateCollectionResponse"]
+- !private ["CSo11UIResponder", "AWSRekognitionImage"]
+- !private ["CSo11UIResponder", "AWSRekognitionIndexFacesRequest"]
+- !private ["CSo11UIResponder", "AWSRekognitionIndexFacesResponse"]
+- !private ["CSo11UIResponder", "Double"]
+- !private ["CSo11UIResponder", "Error"]
+- !private ["CSo11UIResponder", "EyesOpenCalculator"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "UIImageJPEGRepresentation"]
+- ["CSo11UIResponder", "UIImageView"]
+- !private ["CSo11UIResponder", "addAction"]
+- ["CSo11UIResponder", "collectionName"]
+- ["CSo11UIResponder", "create"]
+- ["CSo11UIResponder", "detect"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "faceImage"]
+- ["CSo11UIResponder", "faceImageView"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "rekognitionClient"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "AWSRekognition"]
+- !private ["PSo30UIResponderStandardEditActions", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo30UIResponderStandardEditActions", "AWSRekognitionImage"]
+- !private ["PSo30UIResponderStandardEditActions", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo30UIResponderStandardEditActions", "EyesOpenCalculator"]
+- !private ["PSo30UIResponderStandardEditActions", "String"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertAction"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImageJPEGRepresentation"]
+- !private ["PSo30UIResponderStandardEditActions", "addAction"]
+- !private ["PSo30UIResponderStandardEditActions", "collectionName"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "faceImage"]
+- !private ["PSo30UIResponderStandardEditActions", "faceImageView"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "rekognitionClient"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "AWSRekognition"]
+- !private ["PSo16UIStateRestoring", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo16UIStateRestoring", "AWSRekognitionImage"]
+- !private ["PSo16UIStateRestoring", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo16UIStateRestoring", "EyesOpenCalculator"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "UIImageJPEGRepresentation"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- !private ["PSo16UIStateRestoring", "collectionName"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "faceImage"]
+- !private ["PSo16UIStateRestoring", "faceImageView"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "rekognitionClient"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "AWSRekognition"]
+- !private ["PSo18UITraitEnvironment", "AWSRekognitionCreateCollectionRequest"]
+- !private ["PSo18UITraitEnvironment", "AWSRekognitionImage"]
+- !private ["PSo18UITraitEnvironment", "AWSRekognitionIndexFacesRequest"]
+- !private ["PSo18UITraitEnvironment", "EyesOpenCalculator"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "UIImageJPEGRepresentation"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "collectionName"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "faceImage"]
+- !private ["PSo18UITraitEnvironment", "faceImageView"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "rekognitionClient"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "image"]
+- ["CSo16UIViewController", "AWSRekognition"]
+- !private ["CSo16UIViewController", "AWSRekognitionCreateCollectionRequest"]
+- !private ["CSo16UIViewController", "AWSRekognitionCreateCollectionResponse"]
+- !private ["CSo16UIViewController", "AWSRekognitionImage"]
+- !private ["CSo16UIViewController", "AWSRekognitionIndexFacesRequest"]
+- !private ["CSo16UIViewController", "AWSRekognitionIndexFacesResponse"]
+- !private ["CSo16UIViewController", "Double"]
+- !private ["CSo16UIViewController", "Error"]
+- !private ["CSo16UIViewController", "EyesOpenCalculator"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertController"]
+- ["CSo16UIViewController", "UIImage"]
+- !private ["CSo16UIViewController", "UIImageJPEGRepresentation"]
+- ["CSo16UIViewController", "UIImageView"]
+- !private ["CSo16UIViewController", "addAction"]
+- ["CSo16UIViewController", "collectionName"]
+- ["CSo16UIViewController", "create"]
+- ["CSo16UIViewController", "detect"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "faceImage"]
+- ["CSo16UIViewController", "faceImageView"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "rekognitionClient"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AWSRekognition"]
+- !private ["Ps9_Hashable", "AWSRekognitionCreateCollectionRequest"]
+- !private ["Ps9_Hashable", "AWSRekognitionImage"]
+- !private ["Ps9_Hashable", "AWSRekognitionIndexFacesRequest"]
+- !private ["Ps9_Hashable", "EyesOpenCalculator"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "UIAlertAction"]
+- !private ["Ps9_Hashable", "UIAlertController"]
+- !private ["Ps9_Hashable", "UIImageJPEGRepresentation"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addAction"]
+- !private ["Ps9_Hashable", "alert"]
+- !private ["Ps9_Hashable", "bytes"]
+- !private ["Ps9_Hashable", "cancel"]
+- !private ["Ps9_Hashable", "collectionId"]
+- !private ["Ps9_Hashable", "collectionName"]
+- !private ["Ps9_Hashable", "confidence"]
+- !private ["Ps9_Hashable", "createCollection"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "detectionAttributes"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "eyesOpen"]
+- !private ["Ps9_Hashable", "faceDetail"]
+- !private ["Ps9_Hashable", "faceImage"]
+- !private ["Ps9_Hashable", "faceImageView"]
+- !private ["Ps9_Hashable", "faceRecords"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "indexFaces"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "rekognitionClient"]
+- !private ["Ps9_Hashable", "value"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- !private "PSo21AWSMTLJSONSerializing"
+- !private "CSo11AWSMTLModel"
+- !private "CSo8AWSModel"
+- !private "CSo14AWSRekognition"
+- !private "CSo37AWSRekognitionCreateCollectionRequest"
+- !private "CSo21AWSRekognitionEyeOpen"
+- !private "CSo24AWSRekognitionFaceDetail"
+- !private "CSo24AWSRekognitionFaceRecord"
+- !private "CSo19AWSRekognitionImage"
+- !private "CSo31AWSRekognitionIndexFacesRequest"
+- !private "CSo32AWSRekognitionIndexFacesResponse"
+- !private "CSo10AWSRequest"
+- !private "CSo10AWSService"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "C15SleepyAngelHack18EyesOpenCalculator"
+- "C15SleepyAngelHack23FaceImageViewController"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition-umbrella.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Modules/module.modulemap"
+interface-hash: "089ba67aed0e3e794e8aec3eae99e2da"

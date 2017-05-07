@@ -1,0 +1,6 @@
+framework module Pods_SleepyAngelHackTests {
+  umbrella header "Pods-SleepyAngelHackTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

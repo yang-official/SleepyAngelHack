@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "dbf786ebb2eb2241b0a3d80d275c5d39"
+build_time: [547425056, 40995000]
+inputs:
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/ViewController.swift": !dirty [547425055, 0]
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/ViewController/FaceImageViewController.swift": !dirty [9223372036854775807, 0]
+  "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/SleepyAngelHack/AppDelegate.swift": [547423563, 0]

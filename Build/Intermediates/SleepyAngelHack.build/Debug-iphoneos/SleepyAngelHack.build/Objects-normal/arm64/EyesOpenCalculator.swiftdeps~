@@ -1,0 +1,245 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EyesOpenCalculator"
+provides-nominal:
+- "C15SleepyAngelHack18EyesOpenCalculator"
+provides-member:
+- ["C15SleepyAngelHack18EyesOpenCalculator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "=="
+- !private "??"
+- "AWSRekognitionEyeOpen"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Double"
+- "EyesOpenCalculator"
+depends-member:
+- !private ["PSo21AWSMTLJSONSerializing", "confidence"]
+- !private ["PSo21AWSMTLJSONSerializing", "value"]
+- !private ["CSo11AWSMTLModel", "confidence"]
+- !private ["CSo11AWSMTLModel", "value"]
+- !private ["CSo8AWSModel", "confidence"]
+- !private ["CSo8AWSModel", "value"]
+- !private ["CSo21AWSRekognitionEyeOpen", "confidence"]
+- !private ["CSo21AWSRekognitionEyeOpen", "value"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "rounded"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "confidence"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "rounded"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "confidence"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "rounded"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "rounded"]
+- !private ["Ps28CustomDebugStringConvertible", "confidence"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "rounded"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "rounded"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "rounded"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "confidence"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "rounded"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Sd", "init"]
+- !private ["Sd", "rounded"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "confidence"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rounded"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "rounded"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "rounded"]
+- ["C15SleepyAngelHack18EyesOpenCalculator", "AWSRekognitionEyeOpen"]
+- ["C15SleepyAngelHack18EyesOpenCalculator", "Double"]
+- ["C15SleepyAngelHack18EyesOpenCalculator", "calculateEyesOpen"]
+- ["C15SleepyAngelHack18EyesOpenCalculator", "deinit"]
+- ["C15SleepyAngelHack18EyesOpenCalculator", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "rounded"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "confidence"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "rounded"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "rounded"]
+- !private ["PSo8NSCoding", "confidence"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo9NSCopying", "confidence"]
+- !private ["PSo9NSCopying", "value"]
+- !private ["CSo8NSObject", "confidence"]
+- !private ["CSo8NSObject", "value"]
+- !private ["PSo16NSObjectProtocol", "confidence"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "rounded"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "rounded"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "rounded"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "rounded"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "rounded"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "rounded"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "confidence"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "rounded"]
+- !private ["Ps9_Hashable", "value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "rounded"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "rounded"]
+depends-nominal:
+- !private "PSo21AWSMTLJSONSerializing"
+- !private "CSo11AWSMTLModel"
+- !private "CSo8AWSModel"
+- !private "CSo21AWSRekognitionEyeOpen"
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "C15SleepyAngelHack18EyesOpenCalculator"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition-umbrella.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/itagawa_tomoya/XcodeFile/SleepyAngelHack/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Modules/module.modulemap"
+interface-hash: "a80c1caf0a16cce9dd1797d8dbcc35a6"

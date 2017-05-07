@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bZ5-Hx-txx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Face Image View Controller-->
+        <scene sceneID="rqc-5w-uaT">
+            <objects>
+                <viewController id="bZ5-Hx-txx" customClass="FaceImageViewController" customModule="SleepyAngelHack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5eC-ul-aoD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gnc-nz-346"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pfe-Wm-eQN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sQe-xM-ili">
+                                <rect key="frame" x="0.0" y="60" width="375" height="440"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="440" id="HhK-GO-GiY"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOA-iy-mo9">
+                                <rect key="frame" x="199" y="508" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="detect"/>
+                                <connections>
+                                    <action selector="detect:" destination="bZ5-Hx-txx" eventType="touchUpInside" id="ZV7-KB-mmd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Xr-xM-DGa">
+                                <rect key="frame" x="107" y="508" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="create"/>
+                                <connections>
+                                    <action selector="create:" destination="bZ5-Hx-txx" eventType="touchUpInside" id="2QA-xN-oFn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sQe-xM-ili" firstAttribute="leading" secondItem="pfe-Wm-eQN" secondAttribute="leadingMargin" constant="-16" id="IAf-wO-hhP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sQe-xM-ili" secondAttribute="trailing" constant="-16" id="aWk-pz-heg"/>
+                            <constraint firstItem="sQe-xM-ili" firstAttribute="top" secondItem="5eC-ul-aoD" secondAttribute="bottom" constant="40" id="gDQ-cX-F9H"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="faceImageView" destination="sQe-xM-ili" id="b6I-6f-sxv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KBd-Ov-fYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="357.60000000000002" y="-401.64917541229386"/>
+        </scene>
+    </scenes>
+</document>

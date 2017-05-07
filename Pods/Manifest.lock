@@ -1,0 +1,18 @@
+PODS:
+  - AWSCore (2.4.16)
+  - AWSRekognition (2.4.16):
+    - AWSCore (= 2.4.16)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AWSRekognition (~> 2.4.16)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AWSCore: 7c3c129991e6387bcbad7132bc3661e7135754db
+  AWSRekognition: bf58f4a1b46248b289bb0eff7832be61ec4d3cc4
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: fbd8c62b3a45ad157b93833ce237bb30b0891720
+
+COCOAPODS: 1.0.1
