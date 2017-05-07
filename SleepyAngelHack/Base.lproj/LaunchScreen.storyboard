@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F71b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,8 +23,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_center" translatesAutoresizingMaskIntoConstraints="NO" id="P3G-Am-N4A">
-                                <rect key="frame" x="0.0" y="240.5" width="375" height="186"/>
+                                <rect key="frame" x="0.0" y="160" width="375" height="186"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="APM-Kl-t88"/>
                                     <constraint firstAttribute="width" secondItem="P3G-Am-N4A" secondAttribute="height" multiplier="125:62" id="bOh-Mg-kES"/>
                                 </constraints>
                             </imageView>
@@ -33,7 +34,7 @@
                         <constraints>
                             <constraint firstItem="P3G-Am-N4A" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-16" id="DMA-JT-xoZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="P3G-Am-N4A" secondAttribute="trailing" constant="-16" id="HE0-FM-0AA"/>
-                            <constraint firstItem="P3G-Am-N4A" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="mZ9-E6-QdY"/>
+                            <constraint firstItem="P3G-Am-N4A" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="140" id="XNL-dG-Ka5"/>
                         </constraints>
                     </view>
                 </viewController>
