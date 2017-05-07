@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             accessKey: "",
             secretKey: ""
         )
+        
         let configuration = AWSServiceConfiguration(
             region: .usWest2,
             credentialsProvider: credentialsProvider)
